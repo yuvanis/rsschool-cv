@@ -1,0 +1,103 @@
+* {
+    max-width: 1200px;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #696969;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic
+}
+
+li {
+    list-style-type: none;
+   }
+
+.header__square{
+  background-color: orangered;
+  height: 150px;
+  width: 150px;
+  margin: 0 0;
+}
+
+.main{
+  height: 820px;
+}
+
+.main__info{
+  display: flex;
+  position: absolute;
+  max-width: 700px;
+  justify-content: space-between;
+}
+
+.main__foto{
+  max-width: 50%;
+  height: auto;
+  margin-left: 150px;
+  border: 2px solid palegoldenrod;
+}
+
+.main__title{
+  height: 200px;
+}
+
+.main__title-name{
+  margin-top: 30px;
+  width: 300px;
+  color: orangered;
+}
+
+.main__nav{
+  color: #403b3b;
+  margin: 40px 0 0 -40px;
+}
+
+.main__nav-contacts {
+    width: 240px;
+}
+
+.main__nav-link{
+  margin: 10px;
+}
+
+.main__nav-icon{
+  height: 20px;
+  width: 20px;
+}
+
+.main__nav-text{
+  margin-top: -25px;
+  margin-left: 30px;
+}
+
+.content{
+  padding-top: 350px;
+  margin: 0 auto;
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.content__block{
+  margin-left: 10px;
+}
+
+.content__title{
+  text-transform: uppercase;
+  color: palegoldenrod;
+  margin-bottom: 20px;
+}
+
+.content__text{
+  color:silver;
+  margin-bottom: 20px;
+  border-left: 3px solid palegoldenrod;
+  padding-left: 30px;
+}
+
+.footer__square{
+  position: absolute;
+  background-color: orangered;
+  height: 50px;
+  width: 50px;
+  margin-left: 900px;
+}
