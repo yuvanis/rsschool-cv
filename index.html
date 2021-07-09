@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yury Nistratau</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__square"></div>
+  </header>
+  <main class="main">
+    <div class="main__info">
+      <div class="main__img">
+        <img class="main__foto" src="img/foto.jpg" alt="My foto">
+      </div>
+      <div class="main__title">
+        <div class="main__title-name">
+          <h1>Yury Nistratau</h1>
+          <h2>Junior web developer</h2>
+        </div>
+        <nav class="main__nav">
+          <ul class="main__nav-contacts">
+            <li class="main__nav-link">
+              <img class="main__nav-icon" src="img/phone.svg" alt="phone">
+              <p class="main__nav-text">
+                  +375-29-224-09-06
+              </p>
+            </li>
+            <li class="main__nav-link">
+              <img class="main__nav-icon" src="img/mail.svg" alt="mail">
+              <p class="main__nav-text">
+                uvnistratov@gmail.com
+              </p>
+            </li>
+            <li class="main__nav-link">
+              <img class="main__nav-icon" src="img/discord.svg" alt="discord">
+              <p class="main__nav-text">
+                yuvanis#7540
+              </p>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="content">
+      <div class="content__block">
+        <h2 class="content__title">Summary</h2>
+        <p class="content__text">I'm a beginner front-end developer. 
+          Now I'm only at the beginning of my way, but I'm going to 
+          become a professional developer</p>
+      </div>
+      <div class="content__block">
+        <h2 class="content__title">Code examples</h2>
+        <details class="content__text">
+          <summary>Code</summary>
+          <pre>
+  const findSquares = num => {
+  let max = 0;
+  let min = 0;
+  for (let i = 1; i < 1000000; i++){
+    if (Math.pow(i, 2) - Math.pow((i-1), 2)==num){
+      max=Math.pow(i, 2);
+      min=Math.pow((i-1), 2);
+      return `${max}-${min}`;
+      break;}}}; 
+          </pre>
+      </div>
+      <div class="content__block">
+        <h2 class="content__title">Skills</h2>
+        <ul class="content__text">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+      <div class="content__block">
+        <h2 class="content__title">Language</h2>
+        <p class="content__text">English: Pre-intermediate</p>
+      </div>
+      <div class="content__block">
+        <h2 class="content__title">Experience</h2>
+        <p class="content__text">JavaScript marathon by Vladilen Minin</p>
+      </div>
+      <div class="content__block">
+        <h2 class="content__title">Education</h2>
+        <p class="content__text">Brest State Technical University</p>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer__square"></div>
+  </footer>
+</body>
+</html>
